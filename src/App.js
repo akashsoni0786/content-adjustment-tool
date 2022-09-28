@@ -14,12 +14,12 @@ function App() {
   const [details,setDetails] = React.useState("")
   
   const magnifyhandler=(e)=>{
+    if(txtmag=="on"){
     setDetails(e.target.textContent)
-
+    }
   }
   const magnifyhandler2=(e)=>{
     setDetails('')
-
   }
 
   const textMagnifire =()=>{
